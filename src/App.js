@@ -3,13 +3,15 @@ import './App.css';
 import ReducerTutorial from './ReducerTutorial';
 import StateTutorial from './StateTutorial'
 import EffectTutorial from './EffectTutorial'
+import HookCounterThree from './components/HookCounterThree';
 
 function App() {
   return (
     <div className="App">
-      <StateTutorial/>
+      {/* <StateTutorial/>
       <ReducerTutorial/>
-      <EffectTutorial/>
+      <EffectTutorial/> */}
+      <HookCounterThree/>
     </div>
   );
 }
