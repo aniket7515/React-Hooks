@@ -4,6 +4,7 @@ import ReducerTutorial from './ReducerTutorial';
 import StateTutorial from './StateTutorial'
 import EffectTutorial from './EffectTutorial'
 import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <StateTutorial/>
       <ReducerTutorial/>
       <EffectTutorial/> */}
-      <HookCounterThree/>
+      {/* <HookCounterThree/> */}
+      <HookCounterFour/>
     </div>
   );
 }
