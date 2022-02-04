@@ -14,6 +14,7 @@ import DataFetching from './components/DataFetching';
 import ComponentC from './components/ComponentC';
 
 export const UserContext=React.createContext()
+export const ChannelContext= React.createContext()
 
 function App() {
   return (
@@ -28,8 +29,12 @@ function App() {
       {/* <IntervalHookCounter/> */}
       {/* <DataFetching/> */}
       <UserContext.Provider value={'Vishwas'}>
-        <ComponentC/>
+        <ChannelContext.Provider value={'Codevolution'}>
+           <ComponentC/>
 
+
+        </ChannelContext.Provider>
+        
       </UserContext.Provider>
      
     </div>
