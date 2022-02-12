@@ -13,6 +13,7 @@ import DataFetching from './components/DataFetching';
 
 import ComponentC from './components/ComponentC';
 import CounterOne from './components/CounterOne';
+import ParentComponent from './components/ParentComponent';
 
 export const UserContext=React.createContext()
 export const ChannelContext= React.createContext()
@@ -37,7 +38,8 @@ function App() {
         </ChannelContext.Provider>
         
       </UserContext.Provider> */}
-      <CounterOne/>
+      {/* <CounterOne/> */}
+      <ParentComponent/>
      
     </div>
   );
